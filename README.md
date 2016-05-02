@@ -1,7 +1,10 @@
 # C++11 並列計算 忘備録
 
     /* paralel computing using C++11 */
-
+    // C++11
+    #include <thread>
+    #include <atomic>
+    
     std::vector<std::thread> workers;
     std::atomic<int> i(0);
 
